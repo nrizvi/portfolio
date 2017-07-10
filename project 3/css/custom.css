@@ -1,0 +1,68 @@
+.logo, .logoalt {
+    padding-top: 15px;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3,p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.picleft {
+    padding-right: 1px;
+}
+
+.picright {
+    padding-left: 4px;
+}
+
+.picbottom {
+    padding-top: 4px;
+}
+
+/*This changes the location of the logo from the top (on smaller screens) to the same row as the header (on larger screens)
+*/
+
+@media screen and (max-width:400px) {
+    .logo, .logotext {
+        display: none;
+    }
+}
+
+@media screen and (min-width:400px) {
+    .logoalt, .logoalttext {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .picleft, .picright, .piclefttext, .picrighttext {
+        display:none;
+    }
+    .picbottom, .picbottomtext {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .chicago, .trees, .skyline {
+        display:none;
+    }
+   .chicagotext, .treestext, .skylinetext {
+        display:none;
+   }
+}
+
+@media screen and (min-width: 820px) {
+    .container {
+        width: 820px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
