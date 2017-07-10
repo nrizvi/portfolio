@@ -29,13 +29,13 @@ p {
 /*This changes the location of the logo from the top (on smaller screens) to the same row as the header (on larger screens)
 */
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:480px) {
     .logo, .logotext {
         display: none;
     }
 }
 
-@media screen and (min-width:400px) {
+@media screen and (min-width:480px) {
     .logoalt, .logoalttext {
         display: none;
     }
