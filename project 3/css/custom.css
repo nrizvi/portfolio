@@ -45,7 +45,7 @@ p {
     .picleft, .picright, .piclefttext, .picrighttext {
         display:none;
     }
-    .picbottom, .picbottomtext {
+    .picbottom, .picbottomtext, .headingalt {
         display:none;
     }
 }
@@ -54,7 +54,7 @@ p {
     .chicago, .trees, .skyline {
         display:none;
     }
-   .chicagotext, .treestext, .skylinetext {
+   .chicagotext, .treestext, .skylinetext, .heading {
         display:none;
    }
 }
