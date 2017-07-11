@@ -1,3 +1,13 @@
+.row {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container {
+    background-color: black;
+}
+
 .logo, .logoalt {
     padding-top: 15px;
 }
